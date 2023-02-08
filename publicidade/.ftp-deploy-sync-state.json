@@ -1,0 +1,631 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1675357835756,
+    "data": [
+        {
+            "type": "file",
+            "name": ".DS_Store",
+            "size": 6148,
+            "hash": "07dddde662f3f4bf5c3fe820e414da38683ba6b5f9d2076ca8ddaf0d1fe86d80"
+        },
+        {
+            "type": "file",
+            "name": ".prettierrc",
+            "size": 3,
+            "hash": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+        },
+        {
+            "type": "folder",
+            "name": "css"
+        },
+        {
+            "type": "folder",
+            "name": "fonts"
+        },
+        {
+            "type": "folder",
+            "name": "images"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 16715,
+            "hash": "2b17324c28c45293db72a318a4ee4ee67e6e1299a209af1a31b0205c3fcc5c7c"
+        },
+        {
+            "type": "folder",
+            "name": "js"
+        },
+        {
+            "type": "folder",
+            "name": "pdf"
+        },
+        {
+            "type": "folder",
+            "name": "php"
+        },
+        {
+            "type": "file",
+            "name": "css/animate.css",
+            "size": 60462,
+            "hash": "36061baf37b6c0759447943bdb6a47df09348733d1cfc65d4c5b50f2ba1f6a71"
+        },
+        {
+            "type": "file",
+            "name": "css/bootstrap.css",
+            "size": 154549,
+            "hash": "29ae26b80c7bff822fd8d6bc0a8c9274cbf3506625384608cd9ca7e211e1936d"
+        },
+        {
+            "type": "file",
+            "name": "css/fonts.css",
+            "size": 25283,
+            "hash": "9474e8b555cbf4bc150698a1893b24ff163aa1d2961d79e7e9fedece236a5496"
+        },
+        {
+            "type": "file",
+            "name": "css/style-magnific-popup.css",
+            "size": 8161,
+            "hash": "9ea0def59c4c9432ed7642b4a8d73f575e5ad338576ab118acc86b2afe74b1c0"
+        },
+        {
+            "type": "file",
+            "name": "fonts/icons-font.eot",
+            "size": 116002,
+            "hash": "7374ae0f98c6bed84420fb62a3d922b29b3f95e341bb1ddcff4fb18f7a48321a"
+        },
+        {
+            "type": "file",
+            "name": "fonts/icons-font.svg",
+            "size": 304118,
+            "hash": "27571b324c8e3f07e3a67d8a6085b6dbf470cde3bb0f2c7f247262f425ed92d1"
+        },
+        {
+            "type": "file",
+            "name": "css/style.css",
+            "size": 40610,
+            "hash": "31f220719aec9f6f01c7d009fcf70368f04ca450f6ffba7709683d08b286361a"
+        },
+        {
+            "type": "file",
+            "name": "fonts/icons-font.ttf",
+            "size": 115808,
+            "hash": "689bb407b248098833fd22be4a863f4699e957c54a91477ec4e69916fe322bc2"
+        },
+        {
+            "type": "file",
+            "name": "fonts/icons-font.woff",
+            "size": 70688,
+            "hash": "587cecf37a0b92f41e457fdf5d61e6a2cbb1d6146f0df5a63dfed57fcf7398a0"
+        },
+        {
+            "type": "file",
+            "name": "images/banner.png",
+            "size": 984538,
+            "hash": "fd5982705838f2e01ec652be1df598aebd04d35700ab07d47ef24732f7cc174b"
+        },
+        {
+            "type": "file",
+            "name": "images/bg.jpg",
+            "size": 34550,
+            "hash": "0601659888634810cdc48f74c60b8d517351625aeab75acb9102176e9ece24c6"
+        },
+        {
+            "type": "file",
+            "name": "images/ebook.png",
+            "size": 1648794,
+            "hash": "761cd9e31a7ec823b5d5901216de3b285c014f63100b6f835142e4de1d86ca3d"
+        },
+        {
+            "type": "file",
+            "name": "images/course.png",
+            "size": 678548,
+            "hash": "e0d8e38dc5af1286b78ddecfbaf576b4dc83467bc926079abcb8446c047ca3ee"
+        },
+        {
+            "type": "file",
+            "name": "images/favicon.ico",
+            "size": 1406,
+            "hash": "65a395942d8f6d051b628523a8f9f62a33817bd511eed651da6c743ce39d565e"
+        },
+        {
+            "type": "file",
+            "name": "images/hero.png",
+            "size": 1144251,
+            "hash": "e4f0d52ae4a1d390a00a56471fd0c8d1ce694c3f3ae647c1f8e79761165fa7b7"
+        },
+        {
+            "type": "file",
+            "name": "images/logo.png",
+            "size": 438924,
+            "hash": "1db37eb52904a770b0cfefc6e10f4e48df67405ddee1d980d20056dbc4838b87"
+        },
+        {
+            "type": "file",
+            "name": "images/professores.png",
+            "size": 926006,
+            "hash": "69eba4af69aae4d9385fad962f4fa1be93036d14ed74884d8ee713eaf8e7535c"
+        },
+        {
+            "type": "file",
+            "name": "images/whatsapp.png",
+            "size": 110307,
+            "hash": "a124c209ce46085e5e29d5b843a312aa12d8d140671b61a262eafacb461bf1f4"
+        },
+        {
+            "type": "file",
+            "name": "js/SmoothScroll.js",
+            "size": 21160,
+            "hash": "208361be9e7063ffbf28bfaec6166d5d62e4162262f662f169065769148794f8"
+        },
+        {
+            "type": "file",
+            "name": "js/bootstrap.min.js",
+            "size": 27828,
+            "hash": "46ed2dfb732a01dbc80515ce6a48bcb24dea4bcab8522c71868231812000b58d"
+        },
+        {
+            "type": "file",
+            "name": "js/custom.js",
+            "size": 5429,
+            "hash": "79b023a3de2a747f7a7528ac1ed3e5d5b0ac4ff8c87024e40f6774b2254069ef"
+        },
+        {
+            "type": "file",
+            "name": "js/html5shiv.js",
+            "size": 2435,
+            "hash": "8fe9332d0b3e8f02207504e4165b9d33f0fe49223fa9ac690dfaa910344f7570"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery-1.11.3.min.js",
+            "size": 95962,
+            "hash": "20e11ce61890c08c0529911822233c9023ebc367df6c1050dec105e2b9628104"
+        },
+        {
+            "type": "file",
+            "name": "js/icon-font-ie7.js",
+            "size": 2192,
+            "hash": "1abbc744555b5576fddb073e57376645051f688f098a4670ef51f6ccc9809a43"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery.magnific-popup.min.js",
+            "size": 21146,
+            "hash": "8d806251606bc9565f1b81a83bc9aa04cb3ad88fcb2c53cd48cb0b57d1ffcd6e"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery.nav.js",
+            "size": 5223,
+            "hash": "df9346365baa6733a78f3be7c7432c6bf416b132cd7aeadeb62898fe1d5db2ed"
+        },
+        {
+            "type": "file",
+            "name": "js/jquery.scrollTo-min.js",
+            "size": 2444,
+            "hash": "0abdb17438d8f505f2be56e3e0454906b7d5e62720fb82100e615d2b9ab125aa"
+        },
+        {
+            "type": "file",
+            "name": "js/respond.min.js",
+            "size": 4047,
+            "hash": "8369672cfa949065e3ec60d6f99cb8efe3b6a61f94af5726b5d92556a923fa48"
+        },
+        {
+            "type": "file",
+            "name": "js/plugins.js",
+            "size": 1813,
+            "hash": "ee591c5d1d90c7c9dd4e26e8c4ebe2c89cc6e778a246659791ca2d79ee43efc8"
+        },
+        {
+            "type": "file",
+            "name": "js/wow.js",
+            "size": 16062,
+            "hash": "cc42205519175eb8b2e2bc450bf33719b88e523e2108965f03cc1af989b55715"
+        },
+        {
+            "type": "file",
+            "name": "pdf/Matriz-Curricular-FCD-PP-2023.pdf",
+            "size": 87287,
+            "hash": "4fe95a3495be81fbe89cb63642633700a16fef69762048664d6dc78e15a668a8"
+        },
+        {
+            "type": "file",
+            "name": "pdf/ebook_publicidade.pdf",
+            "size": 562505,
+            "hash": "426049813d1a03bc97f72ec6c4acc5e0e94c48e1c01e54f9f28c191869e474e5"
+        },
+        {
+            "type": "folder",
+            "name": "php/PHPMailer"
+        },
+        {
+            "type": "file",
+            "name": "php/class.phpmailer.php",
+            "size": 74527,
+            "hash": "badbf327767aa275d6f52e4fa37d823f1d75549833201e561305ffa94058ec4b"
+        },
+        {
+            "type": "file",
+            "name": "php/contact.php",
+            "size": 1655,
+            "hash": "2c6c09ef87c0149530ddd10c42cc5e34cbdd09e0fca051146135e82c0c90d2eb"
+        },
+        {
+            "type": "file",
+            "name": "php/newsletter.php",
+            "size": 756,
+            "hash": "16813d00594f62d422c430467346564629e59cbfef6d20c7c36c5bed2efd92d7"
+        },
+        {
+            "type": "file",
+            "name": "php/class.smtp.php",
+            "size": 24801,
+            "hash": "bda1634bbe93cf232e38538b1c7b384f733cb3daf9071b8fa1f8f51068767251"
+        },
+        {
+            "type": "file",
+            "name": "php/register.php",
+            "size": 1026,
+            "hash": "2651a259f2c16ed3e220c5d71b7afccb5ac923d4e5149225ff2b4dc730fff937"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/.DS_Store",
+            "size": 6148,
+            "hash": "8138f86e86d4ce126645182ff7a311cd05d71768bf8da386e964dd5c28fd88cf"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/LICENSE",
+            "size": 26529,
+            "hash": "a1a33180d02960ab1c5de36cf20b1a2f0fe9888d83826ad263da5db52f1b183b"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/README.md",
+            "size": 15779,
+            "hash": "0d3fcc5371393ff440539fe61fdec83af9c2e6e472d0228ea5556f27b9c2d0aa"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/SECURITY.md",
+            "size": 3935,
+            "hash": "31bec366287753c230946d0bdb2c5a24015e92f985878a90b7294c3d75425af0"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/VERSION",
+            "size": 5,
+            "hash": "1c05a8ba99022a50fa4a3f75107909766ffc90c0617843bb9903c5a8c48bad4f"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/get_oauth_token.php",
+            "size": 4866,
+            "hash": "64677d6540a1c48c681362d1d65bc68eb66880c016362fc9a90ac9aafcc78cf6"
+        },
+        {
+            "type": "folder",
+            "name": "php/PHPMailer/language"
+        },
+        {
+            "type": "folder",
+            "name": "php/PHPMailer/src"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-am.php",
+            "size": 2185,
+            "hash": "175bc2a26d122dc7a816a599089f30d1e8ba687e0120eade018d6882fdc8b60d"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ar.php",
+            "size": 2055,
+            "hash": "14336005879bedbd700c7ee00bf011debb0b3c4f0a92a29b28a5d47691a103f3"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-az.php",
+            "size": 1748,
+            "hash": "cb340ee10881eb87cff032cf834fe34f2223150cffcee4e120eca368cced724f"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ba.php",
+            "size": 1743,
+            "hash": "60de795d10a1d9c4f9ecb89402b9397f7ac1f3bab961616e728eb9ced28f272e"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-be.php",
+            "size": 2177,
+            "hash": "d4fc013fcf017a1676ea90f522d6083af5116b3fbca5e5721ec4f396804528a3"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-bg.php",
+            "size": 2195,
+            "hash": "b62f2e65983d1fd9b26b443e0f65c34926055f627315f1164aaa70cf2802c8ce"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ca.php",
+            "size": 1729,
+            "hash": "a69aec7cba1c4fcd983ef323e3e09ee4c4c107466b2853eb8dfe4884fff221fb"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ch.php",
+            "size": 1613,
+            "hash": "de1854eaa59e624c5909f3a98249e0ff6220b5c35a5f2793f9b210938c4b9afe"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-cs.php",
+            "size": 1646,
+            "hash": "934bf7823dfb3fd1f085ff15b8e246307bbd3fb9fe3d3f4b07087afd0df59ecd"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-da.php",
+            "size": 1611,
+            "hash": "83c320c660c97d8589c014579b725ec259990f24c68ca3ab972581a0adacdb27"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-de.php",
+            "size": 1750,
+            "hash": "bd4e30aec14f04e3a5c6e90bfbb646bf45634365a44712c3f8c15bfcb67ca5e8"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-el.php",
+            "size": 2294,
+            "hash": "7a3516c3e15603404545feac9882fe063a878cf7cd720979af015571324d42e2"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-eo.php",
+            "size": 1664,
+            "hash": "1befd4d1de1999d06555ce902834f8b69a199f4306a4cf374030d01514fa5035"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-es.php",
+            "size": 1722,
+            "hash": "d9215a5c2356b78b8cf5b5da455e7278f202559d0b0c7347f905c743ab70ea95"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-et.php",
+            "size": 1743,
+            "hash": "0c75b8f2d7de4f7e24f338f2c40c9fda79cd040d827d27ed7c23128724252f69"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-fa.php",
+            "size": 2065,
+            "hash": "9848091315d0ede1e98c1a3634035eee77b285131e98e2b92d7997252c76e188"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-fi.php",
+            "size": 1730,
+            "hash": "5c0297d167aa9feebea8863cbc7430b00f275345fa76d1440b7a37122c6aa472"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-fo.php",
+            "size": 1636,
+            "hash": "b7b344b5f9162563c6350acea7c4707080e54ee93874e096d28c451cc76c921f"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-gl.php",
+            "size": 1741,
+            "hash": "e53b2a2081ba211c431dde5b786ca983c18c52b77756feca3c00cc6febb8f3fd"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-fr.php",
+            "size": 2004,
+            "hash": "4a731685d69f86f14c0da1ef963ed3b4cf005cf3271bd180271c9c4fbdeb1fe7"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-he.php",
+            "size": 1811,
+            "hash": "bb922f53509bae7d077197866b3540776b4b7845c438585348d3c9516c9d538d"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-hr.php",
+            "size": 1753,
+            "hash": "aca1545262317d6e1e0a5876e69f4dd60a867851fd92fd9b523bfa01a70eeda1"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-hu.php",
+            "size": 1713,
+            "hash": "a3a69c373bc2b5b31946df9c01a9514d70731207769cb4558f6d860d73d81c8e"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-id.php",
+            "size": 1785,
+            "hash": "2c4da62dd2eadb4cd83616204d9ce7d2de8b17de47ec198b5cb9651d30843228"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-it.php",
+            "size": 1818,
+            "hash": "0491b5616bd2523ff40d5a070a93045f84dd4f0cab886adda378bbccea9dfb94"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ja.php",
+            "size": 1924,
+            "hash": "44be0d995fe9475f0a5a8df8e94a04e4ff7445c23ad0e48e728bd9676f9b2b25"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ka.php",
+            "size": 2883,
+            "hash": "cba545d43842ca24777c15fc4131994f835b1ad2f8e88aa41a5b600150cd6d73"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ko.php",
+            "size": 1770,
+            "hash": "a0470bc1cb8ece860d94c7a12cca39b2021679590bdbb11d1ea2d3929cc4e9be"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-lt.php",
+            "size": 1626,
+            "hash": "a1db7f9c539722a2445bf0517b931137358126fa68d7efc57a10b987c7d66dd0"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-lv.php",
+            "size": 1642,
+            "hash": "36f8b3f6d40b8c816b026ba22ff80425fe798f190d99e27584024e2636befcbb"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ms.php",
+            "size": 1736,
+            "hash": "27bafedb5b4cb688232f3b7e81e70debdb89a2296599c7452033b28dda4464d0"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-nb.php",
+            "size": 1549,
+            "hash": "35014cec46cafc094d27e132ab61f80fc959731ca103b71db62a5fa34f1de10d"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-nl.php",
+            "size": 1615,
+            "hash": "48292bb18aba3097b96feb60feab613d9d76519a13cf658fa06603900a377abc"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-pl.php",
+            "size": 1816,
+            "hash": "de5c7e3fe2ee946d16434188ea2cf824e0da97045887e011bf3b9a4ef54fc891"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-pt.php",
+            "size": 1888,
+            "hash": "579e5fa323589122052714e0bd8f7a26a98432666d01885fbaf14b6cbbf108fa"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-pt_br.php",
+            "size": 1907,
+            "hash": "9b40e312ae222b56d90c30ab75391d19baede56ed7bf28d100bc1184eb5f1bef"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ro.php",
+            "size": 1752,
+            "hash": "1b24ce1d439b5a5b599529267d671d865ba265fd33a94164ae9fc716ec80c1fd"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-rs.php",
+            "size": 2281,
+            "hash": "988d0fb5aab69846973892a12f51be61c85c04eb5b2be94792b1666cef024054"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-ru.php",
+            "size": 2279,
+            "hash": "a31c65cb032b29f4e2259336af2e58b075a8e3bd9172afd8a77780c554f00975"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-sk.php",
+            "size": 1709,
+            "hash": "9f16190c284128e20abd10bebc0afd6388cbcd2a48f028c9063119508dedb20d"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-sl.php",
+            "size": 1721,
+            "hash": "e4ab63075f1cbd33bc0c90bec7e9d5df74ed0835275c211bd7db134965f00ba9"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-sv.php",
+            "size": 1611,
+            "hash": "64c62f957cbf3bb47537ff702eb944d109250e7ffe880e9902da3ab771712653"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-tr.php",
+            "size": 1771,
+            "hash": "1cc0c23a7754a02f9dd98d22c2ff68b08cbd59f6e87e1d8c2bd5a4e62896d53a"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-uk.php",
+            "size": 2280,
+            "hash": "b6f2332faec988863820eac9ec7028c04c553ef7a333b482e70ac60a6524402b"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-vi.php",
+            "size": 1792,
+            "hash": "5085676c2b2fe68038e1fe0cd0e57bf808a09682cf09d9ccf7362be607a0fa63"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-zh.php",
+            "size": 1668,
+            "hash": "c780822b176a64a03fa6386f8ea1e73dbcc5bceaf6befc663bc662ee989f99e5"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/language/phpmailer.lang-zh_cn.php",
+            "size": 1655,
+            "hash": "c1fd9a62a96e3ade913341b5e6de738461373b112ceae2c2229649752f884e47"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/src/Exception.php",
+            "size": 1214,
+            "hash": "36eec35d96ce8611bb4078d57b880dab3b3edb8eda15e93afefdd337304c219b"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/src/OAuth.php",
+            "size": 3744,
+            "hash": "69902c3c27d4a53b49e7ef1bd4f41a8da8ee413cd5e2527f6c5454aa546e40a9"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/src/PHPMailer.php",
+            "size": 150501,
+            "hash": "b2d4fbb51a1c46c7146d8ac0e49e49d8a66b6cf1066b92aca4b1e1befb131bee"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/src/POP3.php",
+            "size": 11031,
+            "hash": "dbb7ee8c7ceee9aa2f9fbd44a7f0479a147c16023810e70662ade078751ea4c2"
+        },
+        {
+            "type": "file",
+            "name": "php/PHPMailer/src/SMTP.php",
+            "size": 42761,
+            "hash": "e1ea1f5ed8ba5500a8be5a7f636ad25cbbd50e5e0851b101801e7dcd6ca81352"
+        }
+    ]
+}
