@@ -2372,7 +2372,45 @@ p.testimonials-text {
 /* 					    12. MOBILE DEVICES                    */
 /* ========================================================== */
 
+@media handheld, only screen and (max-width: 1800px) {
+  .margin-left-200 {
+    margin-left: 50px;
+  }
+
+  .margin-right-200 {
+    margin-right: 50px;
+  }
+}
+
 @media handheld, only screen and (max-width: 1566px) {
+  .banner-content {
+    width: 38% !important;
+  }
+
+  .banner-content ul li {
+    line-height: 34px;
+  }
+
+  .list-description li {
+    font-size: 18px;
+  }
+
+  h3.medium-title {
+    font-size: 30px;
+  }
+
+  .section-align-center {
+    height: auto;
+  }
+
+  .banner-wrapper {
+    height: 700px !important;
+  }
+
+  .left-banner-wrapper {
+    height: 815px !important;
+  }
+
   .margin-left-50 {
     margin-left: 50px;
   }
@@ -2387,9 +2425,34 @@ p.testimonials-text {
   .form-container {
     margin: 0 5% !important;
   }
+
+  .banner-content ul li {
+    line-height: 24px !important;
+  }
 }
 
 @media handheld, only screen and (max-width: 1280px) {
+  .banner-content ul li {
+    line-height: 18px !important;
+  }
+
+  .list-description li {
+    font-size: 14px;
+  }
+
+  h3.medium-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .banner-wrapper {
+    height: 540px !important;
+  }
+
+  .left-banner-wrapper {
+    height: 540px !important;
+  }
+
   .home-wrapper {
     background-size: cover;
     background-repeat: no-repeat;
@@ -2438,6 +2501,30 @@ p.testimonials-text {
 }
 
 @media handheld, only screen and (max-width: 1040px) {
+  .banner-content {
+    width: 80% !important;
+  }
+
+  .section-align-center {
+    margin: 0 50px;
+  }
+
+  .banner-wrapper {
+    height: 600px !important;
+  }
+
+  .left-banner-wrapper {
+    height: 650px !important;
+  }
+
+  .banner-wrapper .right-side-banner {
+    display: none;
+  }
+
+  .left-banner-wrapper .left-side-banner {
+    display: none;
+  }
+
   h1 {
     font-size: 30px !important;
     line-height: 40px !important;
@@ -2781,5 +2868,14 @@ p.testimonials-text {
   font-size: 22px;
 }
 
-@media handheld, only screen and (max-width: 769px) {
+@media handheld, only screen and (max-width: 600px) {
+  .left-banner-wrapper {
+    height: 725px !important;
+  }
+}
+
+@media handheld, only screen and (max-width: 380px) {
+  .left-banner-wrapper {
+    height: 850px !important;
+  }
 } ;
