@@ -7,8 +7,9 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
 
-  <title>Cursos de Pós-Graduação de Excelência - Faculdades Oswaldo Cruz</title>
-    <meta name="description" content="Descubra os cursos de pós-graduação de excelência da Faculdades Oswaldo Cruz e dê um impulso à sua carreira. Oferecemos programas em diversas áreas de conhecimento, ministrados por professores renomados e com infraestrutura de última geração. Inscreva-se agora e se destaque no mercado de trabalho!">
+  <title>Faculdade Técnica de Excelência - Faculdades Oswaldo Cruz</title>
+  <meta name="description"
+    content="Descubra os cursos de pós-graduação de excelência da Faculdades Oswaldo Cruz e dê um impulso à sua carreira. Oferecemos programas em diversas áreas de conhecimento, ministrados por professores renomados e com infraestrutura de última geração. Inscreva-se agora e se destaque no mercado de trabalho!">
 
 
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
@@ -64,39 +65,39 @@
   </script> -->
 
 
-<!-- Adicione esse link para utilizar o framework jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Adicione esse link para utilizar o framework jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Adicione esse código JavaScript POP-UP formulario -->
-<script>
-  $(document).ready(function() {
-    $("#contact-form").submit(function(event) {
-      event.preventDefault(); // impede que o formulário seja enviado
+  <!-- Adicione esse código JavaScript POP-UP formulario -->
+  <script>
+    $(document).ready(function () {
+      $("#contact-form").submit(function (event) {
+        event.preventDefault(); // impede que o formulário seja enviado
 
-      var form = $(this);
-      var url = form.attr("action");
-      var formData = form.serialize();
+        var form = $(this);
+        var url = form.attr("action");
+        var formData = form.serialize();
 
-      $.ajax({
-        type: "POST",
-        url: url,
-        data: formData,
-        success: function(response) {
-          // Exibe o pop-up de sucesso
-          alert("Inscrição realizada. Parabéns por tomar essa decisão importante em busca da sua formação acadêmica! Aguarde o nosso contato para confirmar a sua inscrição e comece a se preparar para realizar o seu desejo de obter uma pós-graduação de qualidade. Estamos ansiosos para te ajudar nessa jornada de aprendizado e crescimento profissional!");
-          // Redireciona para a página principal
-          window.location.href = "index.html";
-        },
-        error: function() {
-          // Exibe o pop-up de erro
-          alert("Erro ao reservar sua bolsa de estudos. Tente novamente mais tarde.");
-          // Redireciona para a página principal
-          window.location.href = "index.html";
-        }
+        $.ajax({
+          type: "POST",
+          url: url,
+          data: formData,
+          success: function (response) {
+            // Exibe o pop-up de sucesso
+            alert("Inscrição realizada. Parabéns por tomar essa decisão importante em busca da sua formação acadêmica! Aguarde o nosso contato para confirmar a sua inscrição e comece a se preparar para realizar o seu desejo de obter uma pós-graduação de qualidade. Estamos ansiosos para te ajudar nessa jornada de aprendizado e crescimento profissional!");
+            // Redireciona para a página principal
+            window.location.href = "index.html";
+          },
+          error: function () {
+            // Exibe o pop-up de erro
+            alert("Erro ao reservar sua bolsa de estudos. Tente novamente mais tarde.");
+            // Redireciona para a página principal
+            window.location.href = "index.html";
+          }
+        });
       });
     });
-  });
-</script>
+  </script>
 
 
 </head>
@@ -131,14 +132,11 @@
         <div class="col-md-6 hero-content padding-top-20 margin-left-50">
           <img src="./images/FOC-LOGO-VERTICAL-BRANCA.svg" class="width-100 logo-lp" alt="imac" />
 
-          <h4 class="home-title wow fadeIn" data-wow-delay="0.15s">
-            PÓS-GRADUAÇÃO | ESPECIALIZAÇÃO E MBA
-          </h4>
           <h1 class="home-title wow fadeIn" data-wow-delay="0.25s">
-            CONQUISTE O </br>MERCADO </br>DE TRABALHO!
+            +22 ANOS FORMANDO<br>PROFISSIONAIS EM<br>CURSOS SUPERIORES<br>DE TECNOLOGIA!
           </h1>
-          <a href="https://www.oswaldocruz.br/pos/" class="btn btn-super-orange margin-top-50" onclick="">
-            <h3 class="white">MATRICULE-SE AGORA!</h3>
+          <a href="https://www.oswaldocruz.br/pos/" class="btn btn-banner-blue margin-top-50" onclick="">
+            <h3 class="white">SAIBA MAIS</h3>
           </a>
         </div>
         <!--end col-md-6-->
@@ -148,6 +146,102 @@
     <!--end container-->
   </section>
   <!--end home_wrapper -->
+
+  <section class="section-white" id="contact">
+    <!--begin container-->
+    <div class="form-container">
+      <!--begin row-->
+
+      <div class="form-aside-text">
+        <div class="aside-text-content">
+          <h3>ENSINO MÉDIO + TÉCNICO
+            <br>
+            em Informática, Química ou Edificações
+          </h3>
+          <h3>Quem vem para o Colégio Oswaldo Cruz,
+            <br>
+            chega em todos os lugares!
+          </h3>
+          <h3>
+            O novo ensino médio com formação técnica
+            <br>
+            e profissional é associado ao programa
+            <br>
+            internacional PEA-UNESCO.
+          </h3>
+        </div>
+        <div class="btn button-flex" onclick="gtag_report_conversionFOC()">
+          <a href="https://www.oswaldocruz.br/www/view/colegio.asp" class="form-text-button">MATRICULE-SE AGORA</a>
+        </div>
+
+      </div>
+      <!--end row-->
+      <div class="form-register col-md-6 ">
+        <div class="text-center form-title">
+          <h3>CADASTRE-SE E RECEBA<br>ATENDIMENTO PERSONALIZADO!</h3>
+        </div>
+        <!--begin row-->
+
+        <!--begin contact form -->
+        <form id="contact-form" class="contact" action="processar_cadastro.php" method="post">
+
+          <div class="col-md-12">
+            <div class="form-field">
+              <label for="responsibleName">Nome do Responsável:</label>
+              <input class="contact-input gray-input" required="" name="responsibleName" placeholder="Ex: Flávia"
+                id="responsibleName" type="name">
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="form-field">
+              <label for="studentName">Nome do Aluno:</label>
+              <input class="contact-input gray-input" required="" name="studentName" placeholder="Ex: Daniel"
+                id="studentName" type="name">
+            </div>
+          </div>
+
+          <!--begin col-md-6-->
+          <div class="col-md-12">
+            <div class="form-field">
+              <label for="email">E-mail:</label>
+              <input class="contact-input gray-input" required="" name="email" placeholder="Seu melhor e-mail"
+                id="email" type="email">
+            </div>
+            <div class="form-field">
+              <label for="phone">Telefone:</label>
+              <input class="contact-input gray-input" required="" name="phone" placeholder="(xx) XXXX-XXXX" id="phone"
+                type="tel">
+            </div>
+          </div>
+          <!--end col-md-6-->
+
+          <!--begin col-md-6-->
+          <div class="col-md-12">
+            <div class="form-field">
+              <label for="curso">Curso:</label>
+              <input class="contact-input gray-input" required="" name="course" placeholder="Curso de interesse"
+                id="course" type="text">
+            </div>
+          </div>
+          <!--end col-md-6-->
+
+          <!--begin col-md-12-->
+          <div class="col-md-12 button-flex" onclick="gtag_report_conversionForm()">
+            <input value="RESERVAR BOLSA DE ESTUDOS" id="submit-button" class="contact-submit" type="submit">
+          </div>
+          <!--end col-md-12-->
+
+          <p class="dark-blue">*Bolsa de estudos reservada por até 72 horas.</p>
+        </form>
+
+        <!--end contact form -->
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+
 
   <!--begin contact -->
   <section class="section-dark" id="contact">
@@ -164,59 +258,63 @@
         <!--end col-md-10-->
       </div>
       <!--end row-->
-    
 
-        <!--begin contact form -->
-        <form id="contact-form" class="contact" action="processar_cadastro.php" method="post">
-  <div class="col-md-12">
-    <div class="container-two-input">
-      <div class="form-medium-field">
-        <label for="name">Nome:</label>
-        <input class="contact-input gray-input" required="" name="name" placeholder="Nome" id="name" type="text" />
-      </div>
-      <div class="form-medium-field">
-        <label for="surname">Sobrenome:</label>
-        <input class="contact-input gray-input" required="" name="surname" placeholder="Sobrenome" id="surname" type="text" />
-      </div>
+
+      <!--begin contact form -->
+      <form id="contact-form" class="contact" action="processar_cadastro.php" method="post">
+        <div class="col-md-12">
+          <div class="container-two-input">
+            <div class="form-medium-field">
+              <label for="name">Nome:</label>
+              <input class="contact-input gray-input" required="" name="name" placeholder="Nome" id="name"
+                type="text" />
+            </div>
+            <div class="form-medium-field">
+              <label for="surname">Sobrenome:</label>
+              <input class="contact-input gray-input" required="" name="surname" placeholder="Sobrenome" id="surname"
+                type="text" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-field">
+            <label for="email">E-mail:</label>
+            <input class="contact-input gray-input" required="" name="email" placeholder="Email" id="email"
+              type="email" />
+          </div>
+          <div class="form-field">
+            <label for="phone">Telefone:</label>
+            <input class="contact-input gray-input" required="" name="phone" placeholder="(xx) XXXX-XXXX" id="phone"
+              type="tel" />
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-radio form-field">
+            <label for="curso">Curso:</label>
+            <label class="container radio-container">
+              <input type="radio" name="courseOption" id="saude" value="Saude" />
+              <label for="saude">Saúde</label>
+
+              <input type="radio" name="courseOption" id="mba" value="mba" />
+              <label for="mba">MBA</label>
+
+              <input type="radio" name="courseOption" id="quimMeioAmbiente" value="quimMeioAmbiente" />
+              <label for="quimMeioAmbiente">Química e Meio Ambiente</label>
+            </label>
+          </div>
+        </div>
+
+        <div class="col-md-12 button-flex">
+          <input value="FAÇA SEU CADASTRO" id="submit-button" class="contact-submit" type="submit" />
+        </div>
+      </form>
+
+
+      <!--end contact form -->
     </div>
-  </div>
-
-  <div class="col-md-12">
-    <div class="form-field">
-      <label for="email">E-mail:</label>
-      <input class="contact-input gray-input" required="" name="email" placeholder="Email" id="email" type="email" />
-    </div>
-    <div class="form-field">
-      <label for="phone">Telefone:</label>
-      <input class="contact-input gray-input" required="" name="phone" placeholder="(xx) XXXX-XXXX" id="phone" type="tel" />
-    </div>
-  </div>
-
-  <div class="col-md-12">
-    <div class="form-radio form-field">
-      <label for="curso">Curso:</label>
-      <label class="container radio-container">
-        <input type="radio" name="courseOption" id="saude" value="Saude" />
-        <label for="saude">Saúde</label>
-
-        <input type="radio" name="courseOption" id="mba" value="mba" />
-        <label for="mba">MBA</label>
-
-        <input type="radio" name="courseOption" id="quimMeioAmbiente" value="quimMeioAmbiente" />
-        <label for="quimMeioAmbiente">Química e Meio Ambiente</label>
-      </label>
-    </div>
-  </div>
-
-  <div class="col-md-12 button-flex">
-    <input value="FAÇA SEU CADASTRO" id="submit-button" class="contact-submit" type="submit" />
-  </div>
-</form>
-
-        
-        <!--end contact form -->
-      </div>
-      <!--end row-->
+    <!--end row-->
     <!--end container-->
   </section>
   <!--end contact-->

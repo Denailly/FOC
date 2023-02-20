@@ -747,12 +747,12 @@ iframe {
 /* ========================================================== */
 
 .home-wrapper {
-  height: 100vh;
+  height: 983px;
   position: relative;
   overflow: hidden;
   z-index: 100;
   padding: 20px 0 40px 0;
-  background-color: #442463;
+  background-color: #001b65;
 }
 
 .home-wrapper .gradient_overlay {
@@ -762,11 +762,11 @@ iframe {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url(../images/HERO.png);
+  background: url(../images/hero-v2.png);
   float: right;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .home-wrappe-inside {
@@ -775,7 +775,7 @@ iframe {
 }
 
 h1.home-title {
-  font-size: 78px;
+  font-size: 65px;
   line-height: 90px;
   font-weight: 700;
   color: #eaeaea;
@@ -1505,8 +1505,8 @@ textarea {
 .button-flex a {
   width: 100%;
   color: #fff;
-  border: 2px solid #eb7611;
-  background-color: #eb7611;
+  border: 2px solid #42d1ce;
+  background-color: #42d1ce;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
@@ -1767,6 +1767,26 @@ btn:hover {
   background-color: #ff7260;
 }
 .btn-super-orange h3 {
+  margin: 0px;
+}
+
+.btn-banner-blue {
+  background-color: #42d1ce;
+  font-style: normal;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px 90px;
+  border-radius: 10px !important;
+  width: 500px;
+}
+.btn-banner-blue:hover {
+  background-color: #71dfdd;
+}
+.btn-banner-blue h3 {
   margin: 0px;
 }
 
@@ -2630,6 +2650,17 @@ p.testimonials-text {
     font-size: 20px;
   }
 
+  .btn-banner-blue {
+    padding: 16px 28px;
+    font-size: 14px;
+    width: 275px;
+  }
+
+  .btn-banner-blue h3 {
+    margin: 0px;
+    font-size: 20px;
+  }
+
   .course-card-content {
     margin: 10px 10px;
   }
@@ -2701,6 +2732,15 @@ p.testimonials-text {
     font-size: 20px;
   }
 
+  .btn-banner-blue {
+    margin-top: 10px !important;
+    font-size: 14px;
+  }
+
+  .btn-banner-blue h3 {
+    font-size: 20px;
+  }
+
   .form-container {
     flex-wrap: wrap-reverse;
     justify-content: center !important;
@@ -2708,11 +2748,6 @@ p.testimonials-text {
 
   .form-aside-text {
     margin-top: 50px;
-  }
-
-  .aside-text-content {
-    margin-bottom: 20px !important;
-    text-align: center;
   }
 
   .margin-left-50 {
@@ -2765,13 +2800,13 @@ p.testimonials-text {
     max-width: 150px;
   }
 
-  .btn-super-orange {
+  .btn-banner-blue {
     padding: 16px 28px;
     font-size: 14px;
     width: 275px;
   }
 
-  .btn-super-orange h3 {
+  .btn-banner-blue h3 {
     margin: 0px;
     font-size: 20px;
   }
@@ -2920,8 +2955,7 @@ p.testimonials-text {
   justify-content: space-between;
   margin: 0 10%;
   padding: 0 20px;
-  align-items: end;
-  /* flex-wrap: wrap-reverse; */
+  align-items: center;
 }
 
 .form-container h3 {
@@ -2937,16 +2971,12 @@ p.testimonials-text {
 
 .form-title h3 {
   color: #233775 !important;
-  margin: 0;
+  margin: 0 0 25px 0;
 }
 
 .form-title h3:nth-child(2) {
   font-weight: 300;
   margin-bottom: 20px;
-}
-
-.aside-text-content {
-  margin-bottom: 100px;
 }
 
 .form-text-button {
