@@ -2546,6 +2546,10 @@ p.testimonials-text {
     height: 720px;
   }
 
+  .circle__row {
+    bottom: 155px !important;
+  }
+
   .banner-content {
     width: 38% !important;
   }
@@ -2721,6 +2725,10 @@ p.testimonials-text {
     margin: 1rem 0 !important;
   }
 
+  h1.aside-text-content {
+    line-height: 1.2 !important;
+  }
+
   .home-wrapper {
     background-size: cover;
     padding: 0px 0 20px 0;
@@ -2782,10 +2790,6 @@ p.testimonials-text {
 
   h1.aside-text-content {
     font-size: 36px !important;
-  }
-
-  .circle__row {
-    bottom: 155px !important;
   }
 
   .img-600 {
@@ -3133,6 +3137,10 @@ p.testimonials-text {
 }
 
 @media handheld, only screen and (max-width: 380px) {
+  h1.home-title {
+    font-size: 28px !important;
+  }
+
   .btn-small-super-orange {
     width: 220px;
   }
