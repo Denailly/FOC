@@ -292,11 +292,7 @@ iframe {
 }
 
 .section-dark-blue {
-  background: linear-gradient(
-    120deg,
-    rgba(34, 61, 149, 1) 0%,
-    rgba(36, 51, 99, 1) 100%
-  );
+  background-color: #001b65;
   padding: 60px 0;
 }
 
@@ -312,6 +308,11 @@ iframe {
 
 .section-white {
   background-color: #fff;
+  padding: 120px 0;
+}
+
+.section-faq {
+  background: url(/images/bg-perguntas.png);
   padding: 120px 0;
 }
 
@@ -3134,14 +3135,33 @@ p.testimonials-text {
 }
 
 .circle {
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
+  background: rgb(0, 27, 101);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(0, 27, 101, 1) 0%,
+    rgba(0, 6, 24, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 27, 101, 1) 0%,
+    rgba(0, 6, 24, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 27, 101, 1) 0%,
+    rgba(0, 6, 24, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001b65",endColorstr="#000618",GradientType=1);
+  border-radius: 20px;
+  border: 4px solid #42d1ce;
+  width: 320px;
+  height: 320px;
   overflow: hidden;
   position: relative;
   transform: scale(1);
   transition: transform 0.3s;
   margin: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /***Flip card section***/
@@ -3151,17 +3171,13 @@ p.testimonials-text {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-.circle--image {
-  width: 350px;
-  height: 350px;
+  position: relative;
+  bottom: 250px;
+  z-index: 150;
 }
 
 .circle--text {
   display: flex;
-  opacity: 0;
-  border-radius: 50%;
   color: white;
   text-align: center;
   justify-content: center;
@@ -3170,8 +3186,13 @@ p.testimonials-text {
   width: 100%;
   height: 100%;
   top: 0;
-  padding: 10px;
   transition: opacity 0.5s;
+}
+
+.circle--text h3 {
+  font-weight: 100;
+  margin: 0 20px;
+  font-size: 26px;
 }
 
 .circle--btn {
@@ -3188,4 +3209,152 @@ p.testimonials-text {
 
 .text-42 p {
   font-size: 18px;
+}
+
+.faq {
+  max-width: 700px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #42d1ce;
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+}
+
+.question h3 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.answer p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.faq.active .answer {
+  max-height: 300px;
+}
+
+.faq.active .faq-img {
+  transform: rotate(90deg);
+}
+
+.faq-img {
+  transition: transform 0.5s ease;
+}
+
+.question h3::selection {
+  background: none;
+}
+img.faq-img::selection {
+  background: none;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
 }
