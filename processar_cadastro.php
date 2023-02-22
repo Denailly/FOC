@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $surname = $_POST['surname'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$courseOption = $_POST['courseOption'];
+$course = $_POST['course'];
 
 // Define as informações do e-mail
 $to = "contato@estudefoc.com.br";
@@ -13,7 +13,7 @@ $message = "Nome: $name\n";
 $message .= "Sobrenome: $surname\n";
 $message .= "E-mail: $email\n";
 $message .= "Telefone: $phone\n";
-$message .= "Curso de interesse: $courseOption\n";
+$message .= "Curso de interesse: $course\n";
 $headers = "From: $email";
 
 // Envia o e-mail
